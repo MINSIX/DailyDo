@@ -15,9 +15,11 @@ spatial pyramid pooling이란 다양한 공간적 크기의 피라미드로 입�
 
 # Error
 train.py나 testmany.py를 작성하면서 다양한 오류가 있었다.
+
 self.fc_layers = nn.Sequential(
             nn.Linear(1344, num_classes),  # Assuming 4 levels in SPP
             nn.ReLU(),)
+            
 위와 같이 레이어의 크기를 지정하는 부분에서 특정숫자가 아니면 안되는 경우가 있었고, 공부가 부족해 왜 특정숫자가 들어가는지 모르겠다.
 
 더 많은 다양한 오류가 있었지만 대부분 인공지능에 대한 지식이 부족해서 생기는 오류였던 것 같다.
